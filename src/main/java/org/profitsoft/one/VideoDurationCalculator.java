@@ -1,4 +1,4 @@
-package org.profitsoft;
+package org.profitsoft.one;
 
 
 import java.io.BufferedReader;
