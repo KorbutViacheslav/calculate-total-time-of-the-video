@@ -5,9 +5,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-/**
- * Hello world!
- */
+
 public class App {
     public static void main(String[] args) {
         String folderPath = "E:\\JavaScript\\LESSONS\\[Udemy, Bogdan Stashchuk] React - Полный Курс по React и Redux\\";
