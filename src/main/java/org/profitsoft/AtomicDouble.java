@@ -2,6 +2,11 @@ package org.profitsoft;
 
 import java.util.concurrent.atomic.AtomicReference;
 
+/**
+ * Author: Viacheslav Korbut
+ * Date: 15.05.2024
+ */
+
 public class AtomicDouble {
     private final AtomicReference<Double> value;
 
