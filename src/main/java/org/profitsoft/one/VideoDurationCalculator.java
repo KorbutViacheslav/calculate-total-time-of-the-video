@@ -1,6 +1,4 @@
 package org.profitsoft.one;
-
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +7,6 @@ import java.io.InputStreamReader;
  * Author: Viacheslav Korbut
  * Date: 15.05.2024
  */
-
 public class VideoDurationCalculator {
     public static void main(String[] args) {
         String videoFilePath = "E:\\JavaScript\\firsttest.mp4";
