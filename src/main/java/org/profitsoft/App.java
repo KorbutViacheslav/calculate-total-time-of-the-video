@@ -40,9 +40,7 @@ public class App {
         try {
             ProcessBuilder processBuilder = new ProcessBuilder(ffmpegPath, "-i", file.getAbsolutePath());
             Process process = processBuilder.start();
-
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
             String line;
             double duration = -1;
             while ((line = reader.readLine()) != null) {
