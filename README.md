@@ -27,7 +27,6 @@ public class App {
         // Виконати підрахунок загальної тривалості відео
         calculateTotalVideoDuration(folderPath, ffmpegPath);
     }
-
     private static void calculateTotalVideoDuration(String folderPath, String ffmpegPath) {
         // Реалізація логіки підрахунку тривалості відео
         // Дивіться код програми для деталей
